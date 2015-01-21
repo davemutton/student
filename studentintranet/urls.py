@@ -8,5 +8,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     url(r'^wiki/', include('wiki.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    (r'^summernote/', include('django_summernote.urls')),
     
 )
