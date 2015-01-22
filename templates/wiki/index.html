@@ -1,0 +1,17 @@
+    
+        <h1>Properties arranged by postcode</h1>
+
+        {% if defaultpages %}
+            <table>
+                {% for defaultpage in defaultpages %}
+                <tr>
+                <td>{{ defaultpage.title }}</td>
+
+                </tr>
+
+                {% endfor %}
+            
+            </table>
+        {% else %}
+            <strong>There are no pages present.</strong>
+        {% endif %}

@@ -52,7 +52,7 @@ INSTALLED_APPS = (
 
     #local apps
     'wiki',
-    'zip',
+
 )
 
 MIDDLEWARE_CLASSES = (
